@@ -11,3 +11,18 @@
 </fieldset>
 <?php echo $this->Form->end(__('Login')); ?> or, <?php echo $this->Html->link(__('Register'), array('action' => 'add')); ?>
 </div>
+<style>
+fieldset legend {
+    color: #e32;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+input, textarea {
+    clear: both;
+    font-size: 140%;
+    font-family: "frutiger linotype", "lucida grande", "verdana", sans-serif;
+    padding: 1%;
+    width: 32%;
+}
+</style>
