@@ -11,6 +11,7 @@
 </fieldset>
 <?php echo $this->Form->end(__('Login')); ?> or, <?php echo $this->Html->link(__('Register'), array('action' => 'add')); ?>
 </div>
+//add style that will override cakephp css.
 <style>
 fieldset legend {
     color: #e32;
